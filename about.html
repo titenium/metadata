@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About GetMetaData</title>
+    <div w3-include-html="head.html"></div>
+</head>
+
+<body>
+    <div w3-include-html="header.html"></div>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./assets/images/200.png" alt="About Us Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Who We Are</h2>
+                <p>We are a passionate team of SEO experts dedicated to simplifying SEO meta tag generation. Our tool
+                    helps you improve your website's search engine ranking by optimizing title tags, meta descriptions,
+                    and keywords.</p>
+            </div>
+        </div>
+    </section>
+    <div w3-include-html="footer.html"></div>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

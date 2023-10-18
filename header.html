@@ -1,7 +1,7 @@
 <header class="p-3 text-bg-dark">
   <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
     <div class="nav">
-      <a href="./index.php" class="d-flex align-items-center" aria-expanded="false">
+      <a href="./index.html" class="d-flex align-items-center" aria-expanded="false">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 172 172"
           style=" fill:#26e07f;">
           <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -22,15 +22,11 @@
       <div class="flex-shrink-0 dropdown">
         <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
           aria-expanded="false">
-          <img src="<?= $fetchData['image'] ?>" alt="mdo" width="32" height="32" class="rounded-circle">
+          <img src="./assets/images/user.png" alt="mdo" width="32" height="32" class="rounded-circle">
         </a>
         <ul class="dropdown-menu text-small shadow">
-          <li><a class="dropdown-item" href="<?= SITE_URL?>">Home</a></li>
-          <li><a class="dropdown-item" href="<?= SITE_URL?>/profile.php">Profile</a></li>
-          <li>
-            <hr class="dropdown-divider">
-          </li>
-          <li><a class="dropdown-item" href="<?= SITE_URL?>/include/logout.php">Sign out</a></li>
+          <li><a class="dropdown-item" href="./index.html">Home</a></li>
+          <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
         </ul>
       </div>
     </div>
