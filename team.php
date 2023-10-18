@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GetMetaData Team</title>
-    <?php require './head.html'; ?>
+    <?php require './head.php'; ?>
 </head>
+
 <body>
-    <?php require './header.html'; ?>
-    
+    <?php require './header.php'; ?>
+
     <section class="container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">GetMetaData's Team</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                </p>
             </div>
         </div>
         <div class="container team-container m-auto">
@@ -22,7 +25,8 @@
                     <img class="card-img-top" src="./assets/images/user.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">SA</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Name: SA</li>
@@ -30,16 +34,20 @@
                         <li class="list-group-item"><i class="fa fa-map-marker"></i> India</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o" style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o"
+                                style="font-size:48px"></i></a>
                     </div>
                 </div>
                 <div class="card m-3 col-sm" style="width: 18rem;">
                     <img class="card-img-top" src="./assets/images/user.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">CMO</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Name: CMO</li>
@@ -47,16 +55,20 @@
                         <li class="list-group-item"><i class="fa fa-map-marker"></i> India</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o" style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o"
+                                style="font-size:48px"></i></a>
                     </div>
                 </div>
                 <div class="card m-3 col-sm" style="width: 18rem;">
                     <img class="card-img-top" src="./assets/images/user.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">CFO</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Name: CFO</li>
@@ -64,9 +76,12 @@
                         <li class="list-group-item"><i class="fa fa-map-marker"></i> India</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg" style="font-size:48px"></i></a>
-                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o" style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-facebook-f facebook-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social"><i class="fa fa-twitter twitter-bg"
+                                style="font-size:48px"></i></a>
+                        <a href="#" class="team-social" id="gmailBtn"><i class="fa fa-envelope-o"
+                                style="font-size:48px"></i></a>
                     </div>
                 </div>
             </div>
@@ -78,15 +93,15 @@
                 </div>
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
                     </blockquote>
                 </div>
             </div>
-        </div>    
+        </div>
     </section>
-    <?php require './footer.html'; ?>
+    <?php require './footer.php'; ?>
 </body>
-</html> 
 
-
+</html>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $fetchData['name'] ?></title>
-    <?php require './head.html'; ?>
+    <title>
+        <?= $fetchData['name'] ?>
+    </title>
+    <?php require './head.php'; ?>
 </head>
+
 <body>
-    <?php require './header.html'; ?>
+    <?php require './header.php'; ?>
 
     <div class="card m-auto" style="width: 18rem;">
         <img src="./assets/images/user.png" class="card-img-top" alt="...">
@@ -19,11 +23,12 @@
             <li class="list-group-item">DOB : 12/12/12</li>
             <li class="list-group-item">Address : Test</li>
             <li class="list-group-item">Gender : Male</li>
-            <li class="list-group-item">Phone  : 1212232334</li>
-            <li class="list-group-item">Joining  : 12/12/12</li>
+            <li class="list-group-item">Phone : 1212232334</li>
+            <li class="list-group-item">Joining : 12/12/12</li>
         </ul>
     </div>
 
-    <?php require './footer.html'; ?>
+    <?php require './footer.php'; ?>
 </body>
+
 </html>

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GetMetaData</title>
-    <?php require './head.html'; ?>
+    <?php require './head.php'; ?>
 </head>
+
 <body>
-    <?php require './header.html'; ?>
+    <?php require './header.php'; ?>
     <div class="container-lg mt-5 mb-5">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="getData" placeholder="Enter Competitors Web Url" aria-label="Competitor's WebURL" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" id="getData" placeholder="Enter Competitors Web Url"
+                aria-label="Competitor's WebURL" aria-describedby="basic-addon2">
             <div class="input-group-append">
                 <button type="button" id="btn1" class="btn btn-outline-success">Get MetaData</button>
             </div>
@@ -53,10 +56,7 @@
             </tr>
         </tbody>
     </table>
-    <?php require './footer.html'; ?>
+    <?php require './footer.php'; ?>
 </body>
-</html> 
 
-
-
-
+</html>

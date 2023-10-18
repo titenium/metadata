@@ -36,18 +36,28 @@
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="./index.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 172 172" style=" fill:#26e07f;">
-                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#1fb141"><path d="M21.5,21.5v129h64.5v-32.25v-64.5v-32.25zM86,53.75c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25c-17.7805,0 -32.25,14.4695 -32.25,32.25zM118.25,86c-17.7805,0 -32.25,14.4695 -32.25,32.25c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25z">
-                                    </path>
-                                    </g></g>
+                            <a href="./index.php">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                    viewBox="0 0 172 172" style=" fill:#26e07f;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#1fb141">
+                                            <path
+                                                d="M21.5,21.5v129h64.5v-32.25v-64.5v-32.25zM86,53.75c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25c-17.7805,0 -32.25,14.4695 -32.25,32.25zM118.25,86c-17.7805,0 -32.25,14.4695 -32.25,32.25c0,17.7805 14.4695,32.25 32.25,32.25c17.7805,0 32.25,-14.4695 32.25,-32.25c0,-17.7805 -14.4695,-32.25 -32.25,-32.25z">
+                                            </path>
+                                        </g>
+                                    </g>
                                 </svg>
                             </a>
                         </div>
                         <div class="footer-text">
-                            <p>Enhance your website's SEO performance with our SEO Get Meta Data Tool. Easily access and analyze critical meta information, such as title tags, meta descriptions, and keyword usage. Optimize your site's visibility and search engine rankings for better online discoverability.</p>
+                            <p>Enhance your website's SEO performance with our SEO Get Meta Data Tool. Easily access and
+                                analyze critical meta information, such as title tags, meta descriptions, and keyword
+                                usage. Optimize your site's visibility and search engine rankings for better online
+                                discoverability.</p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Follow us</span>
@@ -63,12 +73,12 @@
                             <h3>Useful Links</h3>
                         </div>
                         <ul>
-                            <li><a href="./index.html">Get MetaData</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="./services.html">Services</a></li>
-                            <li><a href="./seo.html">SEO</a></li>
-                            <li><a href="./team.html">Our Team</a></li>
-                            <li><a href="./blog.html">Blogs</a></li>
+                            <li><a href="./index.php">Get MetaData</a></li>
+                            <li><a href="./about.php">About</a></li>
+                            <li><a href="./services.php">Services</a></li>
+                            <li><a href="./seo.php">SEO</a></li>
+                            <li><a href="./team.php">Our Team</a></li>
+                            <li><a href="./blog.php">Blogs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,16 +106,17 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://github.com/titenium">Sachin</a></p>
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://github.com/titenium">Sachin</a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                     <div class="footer-menu">
                         <ul>
                             <li><a href="<?= SITE_URL?>">Home</a></li>
-                            <li><a href="<?= SITE_URL?>/blog.html">Blogs</a></li>
-                            <li><a href="<?= SITE_URL?>/services.html">services</a></li>
-                            <li><a href="<?= SITE_URL?>/about.html">about</a></li>
+                            <li><a href="<?= SITE_URL?>/blog.php">Blogs</a></li>
+                            <li><a href="<?= SITE_URL?>/services.php">services</a></li>
+                            <li><a href="<?= SITE_URL?>/about.php">about</a></li>
                         </ul>
                     </div>
                 </div>
